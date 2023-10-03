@@ -90,7 +90,7 @@ const productCards = [
 productCards.forEach((object) => {
   const newImage = `
   <a class="product__images_container" href="${object.cardLink}">
-    <img src="${object.imgSrc}" alt="" />
+    <img src=${object.imgSrc} alt="" />
     <p class="product__images_title">${object.title}</p>
   </a>`;
 
