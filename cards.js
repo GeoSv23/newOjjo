@@ -66,12 +66,12 @@ const productCards = [
   },
   {
     cardLink: "2",
-    imgSrc: "/images/bumaga.png",
+    imgSrc: "images/bumaga.png",
     title: "серьги",
   },
   {
     cardLink: "3",
-    imgSrc: "/images/girl.png",
+    imgSrc: "images/girl.png",
     title: "подвески",
   },
   {
@@ -81,7 +81,7 @@ const productCards = [
   },
   {
     cardLink: "5",
-    imgSrc: "public/images/girl.png",
+    imgSrc: "images/girl.png",
     title: "браслеты",
   },
   { cardLink: "6", imgSrc: "public/images/Rectangle 5.png", title: "часы" },
@@ -103,19 +103,19 @@ const artImgHolder = document.querySelector(".usefoolArticles__images");
 const artCards = [
   {
     artLink: "1",
-    artImgSrc: "public/images/Rectangle 5 (1).png",
+    artImgSrc: "images/bumaga.png",
     artAlt: "#",
     title: "Как выбрать<br/> часы для своей<br/> будущей жены",
   },
   {
     artLink: "2",
-    artImgSrc: "public/images/Rectangle 5 (7).png",
+    artImgSrc: "images/bumaga.png",
     artAlt: "#",
     title: "Запонки для мужа:<br/> 7 ключевых правил<br/> покупки аксессуара",
   },
   {
     artLink: "3",
-    artImgSrc: "public/images/Rectangle 5 (8).png",
+    artImgSrc: "images/bumaga.png",
     artAlt: "#",
     title: "Как выбрать<br/> обручальные кольца<br/> молодоженам",
   },
