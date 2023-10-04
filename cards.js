@@ -61,27 +61,27 @@ const productImgHolder = document.querySelector(".product__images");
 const productCards = [
   {
     cardLink: "1",
-    imgSrc: "public/images/Rectangle 5 (3).png",
+    imgSrc: "public/images/colco.png",
     title: "кольца",
   },
   {
     cardLink: "2",
-    imgSrc: "public/images/Rectangle 5 (3).png",
+    imgSrc: "public/images/bumaga.png",
     title: "серьги",
   },
   {
     cardLink: "3",
-    imgSrc: "public/images/Rectangle 5 (4).png",
+    imgSrc: "public/images/girl.png",
     title: "подвески",
   },
   {
     cardLink: "4",
-    imgSrc: "public/images/Rectangle 5 (5).png",
+    imgSrc: "public/images/girl.png",
     title: "запонки",
   },
   {
     cardLink: "5",
-    imgSrc: "public/images/Rectangle 5 (6).png",
+    imgSrc: "public/images/girl.png",
     title: "браслеты",
   },
   { cardLink: "6", imgSrc: "public/images/Rectangle 5.png", title: "часы" },
@@ -90,7 +90,7 @@ const productCards = [
 productCards.forEach((object) => {
   const newImage = `
   <a class="product__images_container" href="${object.cardLink}">
-    <img src=${object.imgSrc} alt="" />
+    <img src="${object.imgSrc}" alt="" />
     <p class="product__images_title">${object.title}</p>
   </a>`;
 
