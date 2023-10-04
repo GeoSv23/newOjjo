@@ -66,22 +66,22 @@ const productCards = [
   },
   {
     cardLink: "2",
-    imgSrc: "images/bumaga.png",
+    imgSrc: "images/colco.png",
     title: "серьги",
   },
   {
     cardLink: "3",
-    imgSrc: "images/girl.png",
+    imgSrc: "images/colco.png",
     title: "подвески",
   },
   {
     cardLink: "4",
-    imgSrc: "images/girl.png",
+    imgSrc: "images/colco.png",
     title: "запонки",
   },
   {
     cardLink: "5",
-    imgSrc: "images/girl.png",
+    imgSrc: "images/colco.png",
     title: "браслеты",
   },
   { cardLink: "6", imgSrc: "public/images/Rectangle 5.png", title: "часы" },
