@@ -61,22 +61,22 @@ const productImgHolder = document.querySelector(".product__images");
 const productCards = [
   {
     cardLink: "1",
-    imgSrc: "public/images/colco.png",
+    imgSrc: "images/colco.png",
     title: "кольца",
   },
   {
     cardLink: "2",
-    imgSrc: "public/images/bumaga.png",
+    imgSrc: "/images/bumaga.png",
     title: "серьги",
   },
   {
     cardLink: "3",
-    imgSrc: "public/images/girl.png",
+    imgSrc: "/images/girl.png",
     title: "подвески",
   },
   {
     cardLink: "4",
-    imgSrc: "public/images/girl.png",
+    imgSrc: "images/girl.png",
     title: "запонки",
   },
   {
