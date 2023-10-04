@@ -94,9 +94,9 @@ $light: #fff;
 @font-face {
   font-family: "Gilroy";
   src: local("Gilroy Regular"), local("Gilroy-Regular"),
-    url(/public/font_style/Gilroy-Regular.woff2) format("woff2"),
-    url(/public/font_style/Gilroy-Regular.woff) format("woff"),
-    url(/public/font_style/Gilroy-Regular.ttf) format("truetype");
+    url(src/public/font_style/Gilroy-Regular.woff2) format("woff2"),
+    url(src/public/font_style/Gilroy-Regular.woff) format("woff"),
+    url(src/public/font_style/Gilroy-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -316,7 +316,7 @@ $light: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/public/images/bgc.png);
+  background-image: url(/src/public/images/bgc.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -330,7 +330,7 @@ $light: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(/public/images/bgcmob.png);
+    background-image: url(/src/public/images/bgcmob.png);
     background-repeat: no-repeat;
     background-position-x: center;
   }
@@ -624,7 +624,7 @@ $light: #fff;
   align-items: center;
   justify-content: center;
   color: $light;
-  background-image: url(../public/images/Rectangle6.png);
+  background-image: url(/src/public/images/Rectangle6.png);
   text-align: center;
   margin-bottom: 40px;
   & .ourSaloon__p {
@@ -691,7 +691,7 @@ $light: #fff;
   height: 470px;
   padding: 0 15%;
   color: $light;
-  background-image: url(/public/images/Rectangle6.png);
+  background-image: url(/src/public/images/Rectangle6.png);
   text-align: center;
   margin-bottom: 40px;
   .distribution__p {
@@ -737,7 +737,7 @@ $light: #fff;
   font-weight: 400;
   line-height: 140%;
   margin-bottom: 10px;
-  background: url(../../public/icons/subscribe__icon.png) left no-repeat;
+  background: url(/src/public/icons/subscribe__icon.png) left no-repeat;
   padding: 0 0 0 30px;
   & {
     text-align: start;

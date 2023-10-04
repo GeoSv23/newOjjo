@@ -1,3 +1,6 @@
+import colco from "@images/colco.png";
+import bumaga from "@images/bumaga.png";
+
 // burger
 const buttonBurger = document.querySelector(".burger");
 
@@ -18,12 +21,24 @@ buttonBurger.addEventListener("click", function () {
 const socMedImg = document.querySelector(".socialMedias__images");
 
 const socMedAttributes = [
-  { link: "#", imgSrc: "public/images/img--hover.png", alt: "image" },
-  { link: "#", imgSrc: "public/images/gallery__image.png", alt: "image" },
-  { link: "#", imgSrc: "public/images/gallery__image (1).png", alt: "image" },
-  { link: "#", imgSrc: "public/images/gallery__image (2).png", alt: "image" },
-  { link: "#", imgSrc: "public/images/gallery__image (3).png", alt: "image" },
-  { link: "#", imgSrc: "public/images/Rectangle 8.png", alt: "image" },
+  // { link: "#", imgSrc: logo, alt: "image" },
+  // { link: "#", imgSrc: "src/public/images/gallery__image.png", alt: "image" },
+  // {
+  //   link: "#",
+  //   imgSrc: "src/public/images/gallery__image (1).png",
+  //   alt: "image",
+  // },
+  // {
+  //   link: "#",
+  //   imgSrc: "src/public/images/gallery__image (2).png",
+  //   alt: "image",
+  // },
+  {
+    link: "#",
+    imgSrc: "src/public/images/gallery__image (3).png",
+    alt: "image",
+  },
+  { link: "#", imgSrc: "src/public/images/Rectangle 8.png", alt: "image" },
 ];
 
 socMedAttributes.forEach((item) => {
@@ -58,30 +73,30 @@ const productImgHolder = document.querySelector(".product__images");
 const productCards = [
   {
     cardLink: "#",
-    imgSrc: "images/colco.png",
+    imgSrc: colco,
     title: "кольца",
   },
   {
     cardLink: "#",
-    imgSrc: "images/colco.png",
+    imgSrc: colco,
     title: "серьги",
   },
   {
     cardLink: "#",
-    imgSrc: "images/colco.png",
+    imgSrc: colco,
     title: "подвески",
   },
   {
     cardLink: "#",
-    imgSrc: "images/colco.png",
+    imgSrc: colco,
     title: "запонки",
   },
   {
     cardLink: "#",
-    imgSrc: "images/colco.png",
+    imgSrc: colco,
     title: "браслеты",
   },
-  { cardLink: "#", imgSrc: "images/colco.png", title: "часы" },
+  { cardLink: "#", imgSrc: colco, title: "часы" },
 ];
 
 productCards.forEach((object) => {
@@ -100,19 +115,19 @@ const artImgHolder = document.querySelector(".usefoolArticles__images");
 const artCards = [
   {
     artLink: "1",
-    artImgSrc: "images/bumaga.png",
+    artImgSrc: bumaga,
     artAlt: "#",
     title: "Как выбрать<br/> часы для своей<br/> будущей жены",
   },
   {
     artLink: "2",
-    artImgSrc: "images/bumaga.png",
+    artImgSrc: bumaga,
     artAlt: "#",
     title: "Запонки для мужа:<br/> 7 ключевых правил<br/> покупки аксессуара",
   },
   {
     artLink: "3",
-    artImgSrc: "images/bumaga.png",
+    artImgSrc: bumaga,
     artAlt: "#",
     title: "Как выбрать<br/> обручальные кольца<br/> молодоженам",
   },
