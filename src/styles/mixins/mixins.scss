@@ -1,0 +1,81 @@
+// Миксины для брейкпоинтов
+
+@mixin breakPointSmall {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin breakPointMedium {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin breakPointBig {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin breakPointBigest {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+// миксины для подзаголовков
+@mixin pretitle {
+  color: $dark;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+// миксины для заголовков
+@mixin title {
+  color: $dark;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+// миксин для основного и ховер стиля кнопок
+@mixin buttonStyle {
+  text-align: center;
+  padding: 10px 20px;
+  color: $light;
+  border: 1px solid $light;
+  background-color: #3a3939;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+@mixin buttonoStyleHover {
+  cursor: pointer;
+  background-color: $light;
+  border: 1px solid #3a3939;
+  color: $dark;
+  transition: 0.5s;
+
+  color: var(--accent, $dark);
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.9px;
+}

@@ -11,7 +11,6 @@ export default defineConfig({
     alias: {
       "@src": path.resolve(__dirname, "src"),
       "@images": path.resolve(__dirname, "src/public/images"),
-      // Добавьте другие алиасы по мере необходимости
     },
   },
   build: {
