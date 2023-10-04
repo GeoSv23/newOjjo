@@ -16,7 +16,5 @@ export default defineConfig({
   },
   build: {
     outDir: "dist", // Папка, куда будут сохраняться собранные файлы
-    minify: true, // Минификация JS, CSS, HTML и JSON файлов
-    sourcemap: false, // Отключение генерации sourcemaps для продакшн сборки
   },
 });
